@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 160px;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxRightnavbar {
+    width: 800px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.btn {
+    margin-left: 60px;
+}
+.list_item {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+}
+
+.list_item:active{
+    color: #EE8313;
+}
+
+.list {
+    display: flex;
+    gap: 48px;
+}
+
+

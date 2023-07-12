@@ -1,0 +1,86 @@
+.section1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.text-section {
+    padding-top: 180px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0.312px;
+}
+
+
+.car-box {
+    width: 584px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.car-box {
+    position: relative;
+}
+
+.car-box:hover .car-hover {
+    transition: .4s;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.car-hover {
+    top: 0;
+    width: 100%;
+    transform: scale(0);
+    transition: .4s;
+    position: absolute;
+    margin-top: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-bottom: 48px;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+.text-hover-bottom {
+    width: 100%;
+    text-align: end;
+}
+
+
+.text-hover-top {
+    padding-bottom: 340px;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.24px;
+}
+
+.text-hover-bottom {
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.144px;
+}
